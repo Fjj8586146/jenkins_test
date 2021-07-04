@@ -47,7 +47,7 @@ class TestLogin:
     @pytest.mark.xfail(condition=False, reason='预期失败')
     def test_08(self):
         print('预期成功，结果失败')
-        assert 0
+        assert 1
 
     # 预期失败，结果成功
     @pytest.mark.xfail(condition=True, reason='预期失败')
@@ -59,4 +59,4 @@ class TestLogin:
     @pytest.mark.xfail(condition=True, reason='预期失败')
     def test_10(self):
         print('预期失败，结果失败')
-        assert 0
+        assert 1
