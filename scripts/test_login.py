@@ -60,3 +60,12 @@ class TestLogin:
     def test_10(self):
         print('预期失败，结果失败')
         assert 1
+
+    def test_11001100(self):
+        print(11001100)
+        assert 0
+    def test_11001101212121(self):
+        print(11001100121212)
+        assert 0
+
+
