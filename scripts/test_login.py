@@ -18,13 +18,13 @@ class TestLogin:
 
     @pytest.mark.run(order=0)
     def test_03(self):
-        print('0顶顶顶')
-        assert 1
+        print('顶顶顶')
+        assert 0
 
 
     def test_04(self):
         print('没写')
-        assert 1
+        assert 0
 
     @pytest.mark.run(order=-1)
     def test_05(self):
